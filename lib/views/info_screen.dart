@@ -1,5 +1,5 @@
 import 'package:covid_19/constant.dart';
-import 'package:covid_19/widgets/my_header.dart';
+import 'package:covid_19/views/widgets/my_header.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:hive/hive.dart';
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
-import 'covid_data_model.dart';
+import '../models/covid_data_model.dart';
 
 // ignore: camel_case_types
 class API_Manager {

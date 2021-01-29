@@ -1,18 +1,18 @@
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:covid_19/api_manager.dart';
+import 'package:covid_19/controller/api_manager.dart';
 import 'package:covid_19/constant.dart';
-import 'package:covid_19/covid_data_model.dart';
-import 'package:covid_19/user_location.dart';
-import 'package:covid_19/widgets/counter.dart';
-import 'package:covid_19/widgets/my_header.dart';
-import 'package:covid_19/widgets/news_tile.dart';
+import 'package:covid_19/models/covid_data_model.dart';
+import 'package:covid_19/controller/user_location.dart';
+import 'package:covid_19/views/widgets/counter.dart';
+import 'package:covid_19/views/widgets/my_header.dart';
+import 'package:covid_19/views/widgets/news_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:searchable_dropdown/searchable_dropdown.dart';
 
-import 'helper/news.dart';
+import 'controller/news_api.dart';
 import 'models/article.dart';
 
 void main() async {
