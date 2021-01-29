@@ -28,7 +28,7 @@ It shows all the active covid case. You can also see all latest covid related ne
 
 - With Flutter installed, clone project and run `flutter run --release` in that directory,
   or
-- Download the built APK from [here](https://github.com/san07364/covidapp/raw/master/github_assets/app-release.apk)
+- Download the built APK from [here](https://github.com/san07364/covid_app/blob/master/github_assets/app-release.apk?raw=true)
 
 ## Screenshots
 
